@@ -1,0 +1,5 @@
+# START REDIRECT HTTPS
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://studio.skeyword.com/ [R=301,L]
+# END REDIRECT HTTPS
